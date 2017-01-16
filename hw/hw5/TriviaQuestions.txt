@@ -1,0 +1,108 @@
+I18
+An object is, conceptually, a self-contained unit consisting of 
+Attributes(data) and procedures(functions)
+Attributes
+Procedures
+Data
+
+Encapsulation refers to
+Combining data and code into a single object 
+Storing data into an object
+Creating functions for an object
+Protecting data
+
+Data hiding refers to an object’s ability to
+Hide its data from code that is outside the object 
+Hide its data from code that is inside the object 
+Hide its data
+Hide its procedures
+
+A class is not an object, but it is
+A description of an object
+An instance of an object
+Code that specifies the attributes that a particular type of object may have 
+Code that specifies the functions that a particular type of object may have
+
+An object is not a class, but it is
+An instance of a class
+A description of a class
+Code that specifies the attributes that a class may have 
+Code that specifies the functions that a class may have
+
+The operator that identifies the function as a member of a class is 
+::
+:
+->
+.
+
+The complete name of the operator that identifies the function as a member of a class is 
+Scope resolution operator
+Scope operator
+Identification operator
+Scope identification operator
+
+Some programmers refer to mutators as 
+Setter functions
+Getter functions
+Change functions
+Accessor functions
+
+Some programmers refer to accessors as 
+Getter functions
+Setter functions
+Change functions 
+Mutators functions
+
+Which of the following is true about class constructors?
+A default constructor is a constructor that takes no parameters
+A class cannot have more than one constructors
+Constructors may have different names as their class
+Constructors are not necessary for classes
+
+Which of the following is true about classes?
+By default all members of a class are set to private
+By default all members of a class are set to public
+By default all members of a class are set to protected
+None of these are true
+
+For classes, which order must public and private members be declared?
+The order does not matter, but by convention public members are declared before private members
+Private members must be declared before public members
+Public members must be declared before private members
+They do not be need to declared at all 
+
+Which method is correct when defining const member functions?
+double getWidth() const;
+const double getWidth();
+double const getWidth();
+double getWidth(const);
+
+What is the difference between structs and classes?
+Classes by default set their members to private while for structs they are public
+Classes by default set their members to public while for structs they are private
+Classes can have member functions while structs may not
+There is no difference and is dependent on programmer's preference
+
+For a public setWidth function that takes in a double and returns nothing, which is the correct UML notation?
++ setWidth(w : double) : void
+- setWidth(double : w) : void
++ setWidth(w : double) : double
+- setWidth(double : w) : void
+
+For a UML Class diagram, what are the three sections?
+Class name, Member variables, Member functions
+Default Constructor, User-Defined Constructor, Destructor
+Private variables, Public Variables, Protected Variables
+Function name, Data type, Function Parameter
+
+Which of the following is an definition of an instance of a class?
+Rectangle r;
+Rectangle(int width, int length) {};
+~Rectangle();
+Rectangle::Rectangle() {};
+
+Which of the following is an accessor function?
+int getWidth() {return width;}
+void setLength(int l) {length = l;}
+Rectangle() {width = 10; length = 10;}
+~Rectangle() {}

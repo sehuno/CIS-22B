@@ -1,0 +1,60 @@
+17,21c17
+<   string filename;
+< 
+<   // Prompt user for filepath to inputfile
+<   cout << "Please enter filepath for the Countries.txt file." << endl;
+<   getline(cin,filename);
+---
+>   string filename = "Countries.txt";
+158,207d153
+< 
+< /* 
+<   OUTPUT
+< 
+< Please enter filepath for the Countries.txt file.
+< /Users/sehun/Documents/22b/hw/hw6/Countries.txt
+< Code |            Country |        Capital | Population
+<  ----  ------------------- ----------------  ----------
+<   AU |          Australia |       Canberra |   20090437
+<   BR |             Brazil |       Brasilia |  186112794
+<   BU |           Bulgaria |          Sofia |    7262675
+<   CA |             Canada |         Ottawa |   32805041
+<   CN |              China |        Beijing | 1306313812
+<   DO | Dominican Republic |  Santo Domingo |    8950034
+<   EG |              Egypt |          Cairo |   77505756
+<   ES |              Spain |         Madrid |   40341462
+<   FJ |               Figi |           Suva |     893354
+<   FR |             France |          Paris |   60656178
+<   GR |             Greece |         Athens |   10668354
+<   HU |            Hungary |       Budapest |   10006835
+<   IR |               Iran |         Tehran |   68017860
+<   JA |              Japan |          Tokyo |  127288419
+<   LI |      Liechtenstein |          Vaduz |      33717
+<   MC |             Monaco |         Monaco |      32409
+<   MU |          Mauritius |     Port Louis |    1230602
+<   MX |             Mexico |    Mexico City |  106202903
+<   NP |              Nepal |      Kathmandu |   27676547
+<   RU |             Russia |         Moscow |  143420309
+<   TW |             Taiwan |         Taipei |   22894384
+<   US |      United States | Washington, DC |  295734134
+< 
+< Enter country code of country for deletion: AU
+< --> Country for deletion: AU Australia Canberra 20090437
+< 
+< Enter country code of country for deletion: AU
+< --> Country not found
+< 
+< Enter country code of country for deletion: quit
+< 
+< 
+< Enter country code of country to search for: AU
+< --> Country not found
+< 
+< Enter country code of country to search for: DO
+< --> Country Found: DO Dominican Republic Santo Domingo 8950034
+< 
+< Enter country code of country to search for: QUIT
+< 
+< 
+< */
+\ No newline at end of file
